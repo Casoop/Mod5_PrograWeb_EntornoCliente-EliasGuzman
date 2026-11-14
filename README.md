@@ -88,15 +88,15 @@ Mod5_PrograWeb_EntornoCliente-Nombre/
             <td align="center">S03</td>
             <td>Entorno en el laboratorio y mi primer script</td>
             <td align="left">(Instalación del entorno, la etiqueta script)</td>
-            <td align="center"><a href="UA1/S03/" target="_blank" rel="noopener">Ver</a></td>
-            <td align="center"><a href="UA1/S03/capturas/" target="_blank" rel="noopener">Ver</a></td>
+            <td align="center"><a href="UA1/S03/horario/js/horario.js" target="_blank" rel="noopener">Ver</a></td>
+            <td align="center"><a href="UA1/S03/capturas/S03-lista_de_talleres.png" target="_blank" rel="noopener">Ver</a></td>
         </tr>
         <tr>
             <td align="center">S04</td>
             <td>Variables, constantes, tipos y operadores</td>
-            <td align="left">(Completar al terminar la sesión)</td>
-            <td align="center"><a href="UA1/S04/" target="_blank" rel="noopener">Ver</a></td>
-            <td align="center"><a href="UA1/S04/capturas/" target="_blank" rel="noopener">Ver</a></td>
+            <td align="left">(Constantes y variables - tipos de datos y comparaciones)</td>
+            <td align="center"><a href="UA1/S04/presupuesto/js/presupuesto.js" target="_blank" rel="noopener">Ver</a></td>
+            <td align="center"><a href="UA1/S04/capturas/S04-consola_uso_prompt_js.png" target="_blank" rel="noopener">Ver</a></td>
         </tr>
         <tr>
             <td align="center">S05</td>
@@ -495,27 +495,27 @@ CÓMO USAR ESTE BLOQUE (Clase 04)
 
 **Predicciones**
 
-| #   | Expresión        | Mi predicción | Lo que mostró la consola |
-| --- | ---------------- | ------------- | ------------------------ |
-| 1   | `typeof "95000"` |               |                          |
-| 2   | `typeof 95000`   |               |                          |
-| 3   | `typeof 9.5`     |               |                          |
-| 4   | `typeof "true"`  |               |                          |
-| 5   | `"5" + 2`        |               |                          |
-| 6   | `"5" - 2`        |               |                          |
-| 7   | `5 === "5"`      |               |                          |
-| 8   | `10 % 3`         |               |                          |
-| 9   | `true && false`  |               |                          |
-| 10  | `!(3 > 2)`       |               |                          |
+| #   | Expresión        | Mi predicción    | Lo que mostró la consola |
+| --- | ---------------- | ---------------- | ------------------------ |
+| 1   | `typeof "95000"` | string           | string                   |
+| 2   | `typeof 95000`   | number / entero  | number                   |
+| 3   | `typeof 9.5`     | number / decimal | number                   |
+| 4   | `typeof "true"`  | booleano         | boolean                  |
+| 5   | `"5" + 2`        | error            | 52                       |
+| 6   | `"5" - 2`        | error            | 3                        |
+| 7   | `5 === "5"`      | false            | true                     |
+| 8   | `10 % 3`         | 1                | 1                        |
+| 9   | `true && false`  | false            | false                    |
+| 10  | `!(3 > 2)`       | false            | false                    |
 
 **Autoevaluación**
 
 | Indicador                                                 | Sí  | Aún no |
 | --------------------------------------------------------- | --- | ------ |
-| Uso const si el valor no cambia y let si cambia.          |     |        |
-| Reconozco cadenas, números, booleanos y null.             |     |        |
-| Calculo con operadores en lugar de escribir el resultado. |     |        |
-| Sé que prompt devuelve texto y lo convierto con Number.   |     |        |
+| Uso const si el valor no cambia y let si cambia.          | x   |        |
+| Reconozco cadenas, números, booleanos y null.             | x   |        |
+| Calculo con operadores en lugar de escribir el resultado. | x   |        |
+| Sé que prompt devuelve texto y lo convierto con Number.   | x   |        |
 
 </details>
 

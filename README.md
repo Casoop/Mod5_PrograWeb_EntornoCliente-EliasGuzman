@@ -87,14 +87,14 @@ Mod5_PrograWeb_EntornoCliente-Nombre/
         <tr>
             <td align="center">S03</td>
             <td>Entorno en el laboratorio y mi primer script</td>
-            <td align="left">(Instalación del entorno, la etiqueta script)</td>
+            <td align="left">Instalación del entorno, la etiqueta script</td>
             <td align="center"><a href="UA1/S03/horario/js/horario.js" target="_blank" rel="noopener">Ver</a></td>
             <td align="center"><a href="UA1/S03/capturas/S03-lista_de_talleres.png" target="_blank" rel="noopener">Ver</a></td>
         </tr>
         <tr>
             <td align="center">S04</td>
             <td>Variables, constantes, tipos y operadores</td>
-            <td align="left">(Constantes y variables - tipos de datos y comparaciones)</td>
+            <td align="left">Constantes y variables - tipos de datos y comparaciones</td>
             <td align="center"><a href="UA1/S04/presupuesto/js/presupuesto.js" target="_blank" rel="noopener">Ver</a></td>
             <td align="center"><a href="UA1/S04/capturas/S04-consola_uso_prompt_js.png" target="_blank" rel="noopener">Ver</a></td>
         </tr>
@@ -433,10 +433,10 @@ Archivo: [pruebas/js/pruebas.js](UA1/S02/pruebas/js/pruebas.js)
 
 | Indicador                                                                                      | Sí  | Aún no |
 | ---------------------------------------------------------------------------------------------- | --- | ------ |
-| Copié Luz Clara en `luz-clara/` y Casa Tomillo en `casa-tomillo/`, y los abro con Live Server. |     |        |
-| Mi repositorio está en GitHub con el README.                                                   |     |        |
-| Distingo un error de sintaxis de uno de semántica.                                             |     |        |
-| Uso `//` para aislar un error y seguir probando.                                               |     |        |
+| Copié Luz Clara en `luz-clara/` y Casa Tomillo en `casa-tomillo/`, y los abro con Live Server. | x   |        |
+| Mi repositorio está en GitHub con el README.                                                   | x   |        |
+| Distingo un error de sintaxis de uno de semántica.                                             | x   |        |
+| Uso `//` para aislar un error y seguir probando.                                               | x   |        |
 
 </details>
 
@@ -447,32 +447,31 @@ Archivos: [horario/js/horarios.js](UA1/S03/horario/js/horarios.js) · [luz-clara
 
 **Cacería de errores**
 
-| #   | Mensaje de la consola | Archivo:línea | Corrección |
-| --- | --------------------- | ------------- | ---------- |
-| 1   |                       |               |            |
-| 2   |                       |               |            |
-| 3   |                       |               |            |
-| 4   |                       |               |            |
+| #   | Mensaje de la consola                                                                                             | Archivo:línea | Corrección                                                                                   |
+| --- | ----------------------------------------------------------------------------------------------------------------- | ------------- | -------------------------------------------------------------------------------------------- |
+| 1   | Hubo un fallo al cargar el <script> con fuente “http://127.0.0.1:5500/UA1/S03/horario/js/horario.js”.             | horarios.js   | el nombre del archivo enlazado desde head era distinto, se cambio horarios.js por horario.js |
+| 2   | Uncaught SyntaxError: "" string literal contains an unescaped line break                                          | Línea: 3      | faltaba la presencia de comillas al final del mensaje, se añadieron comillas tras m.         |
+| 3   | Uncaught ReferenceError: Console is not defined <anonymous> http://127.0.0.1:5500/UA1/S03/horario/js/horario.js:4 | Línea: 5      | se digito console.log con una c mayuscula, se cambio por la version correcta/normal          |
 
 **Reto MVC**
 
-| Elemento | Componente | Justificación |
-| -------- | ---------- | ------------- |
-| 1        |            |               |
-| 2        |            |               |
-| 3        |            |               |
-| 4        |            |               |
-| 5        |            |               |
-| 6        |            |               |
+| Elemento | Componente  | Justificación                                                 |
+| -------- | ----------- | ------------------------------------------------------------- |
+| 1        | Modelo      | Son datos guardados en el programa                            |
+| 2        | Vista       | Es la parte grafica con la que el usuario interactua          |
+| 3        | controlador | Se encarga de la interacion vista modelo                      |
+| 4        | Modelo      | Ya que es informacion almacenada                              |
+| 5        | Vista       | Retorno al usuario posiblemente solicitado por el controlador |
+| 6        | Controlador | Se encarga de las interaciones del usuario                    |
 
 **Autoevaluación**
 
 | Indicador                                                       | Sí  | Aún no |
 | --------------------------------------------------------------- | --- | ------ |
-| Enlazo un archivo .js al final del body o en el head con defer. |     |        |
-| Uso comentarios de línea y de bloque.                           |     |        |
-| Uso \n, \t, \", \\ y \u en textos.                              |     |        |
-| Leo el tipo de error, el mensaje y la línea en la consola.      |     |        |
+| Enlazo un archivo .js al final del body o en el head con defer. | x   |        |
+| Uso comentarios de línea y de bloque.                           | x   |        |
+| Uso \n, \t, \", \\ y \u en textos.                              | x   |        |
+| Leo el tipo de error, el mensaje y la línea en la consola.      | x   |        |
 
 </details>
 

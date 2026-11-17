@@ -82,7 +82,7 @@ Mod5_PrograWeb_EntornoCliente-Nombre/
             <td>Entorno de trabajo, MVC y JavaScript</td>
             <td align="left">(Completar al terminar la sesión)</td>
             <td align="center"><a href="UA1/S02/" target="_blank" rel="noopener">Ver</a></td>
-            <td align="center"><a href="UA1/S02/capturas/" target="_blank" rel="noopener">Ver</a></td>
+            <td align="center"><a href="UA1/S02/capturas/S02-pruebaEntorno.png" target="_blank" rel="noopener">Ver</a></td>
         </tr>
         <tr>
             <td align="center">S03</td>
@@ -411,7 +411,7 @@ Archivo: [S01_Cuadro_comparativo_Elias_Guzman.docx](UA1/S01/S01_Cuadro_comparati
 
 **Conclusión**
 
-La diferencia más importante que encontré entre C y JavaScript:
+La diferencia más importante que encontré entre C y JavaScript: es el uso, donde JavaScript es un lenguaje interpretado y de scripting, diseñado para la web
 
 </details>
 

@@ -16,4 +16,4 @@ Correción #3: se digito console.log con una c mayuscula, se cambio por la versi
 | --- | ----------------------------------------------------------------------------------------------------------------- | ------------- | -------------------------------------------------------------------------------------------- |
 | 1   | Hubo un fallo al cargar el <script> con fuente “http://127.0.0.1:5500/UA1/S03/horario/js/horario.js”.             | horarios.js   | el nombre del archivo enlazado desde head era distinto, se cambio horarios.js por horario.js |
 | 2   | Uncaught SyntaxError: "" string literal contains an unescaped line break                                          | Línea: 3      | faltaba la presencia de comillas al final del mensaje, se añadieron comillas tras m.         |
-| 3   | Uncaught ReferenceError: Console is not defined <anonymous> http://127.0.0.1:5500/UA1/S03/horario/js/horario.js:4 | Línea: 5      | se digito console.log con una c mayuscula, se cambio por la version correcta/normal          |
+| 3   | Uncaught ReferenceError: Console is not defined <anonymous> http://127.0.0.1:5500/UA1/S03/horario/js/horario.jsfff          |

@@ -2,7 +2,7 @@
 
 <h1>📘 Portafolio de Evidencias</h1>
 
-<h3>Nombre Apellido1 Apellido2</h3>
+<h3>Elías Guzmán Castro</h3>
 
 <strong>CSTI12004 · Programación web en el entorno cliente</strong> · Instituto Nacional de Aprendizaje
 Programa CSTI14001 Desarrollo de páginas web · Facilitador: Giovanni Antonio Coto Calderón · 2026-2027
@@ -73,14 +73,14 @@ Mod5_PrograWeb_EntornoCliente-Nombre/
         <tr>
             <td align="center">S01</td>
             <td>Bienvenida, encuadre y diagnóstico</td>
-            <td align="left">(Completar al terminar la sesión)</td>
-            <td align="center"><a href="UA1/S01/" target="_blank" rel="noopener">Ver</a></td>
-            <td align="center"><a href="UA1/S01/capturas/" target="_blank" rel="noopener">Ver</a></td>
+            <td align="left">Aprendí sobre las diferencias entre C, JavaScript y TypeScript</td>
+            <td align="center"><a href="UA1/S01/S01_Cuadro_comparativo_Elias_Guzman.docx" target="_blank" rel="noopener">Ver</a></td>
+            <td align="center"><a href="UA1/S01/capturas/S01-CuadroComparativo.png" target="_blank" rel="noopener">Ver</a></td>
         </tr>
         <tr>
             <td align="center">S02</td>
             <td>Entorno de trabajo, MVC y JavaScript</td>
-            <td align="left">(Completar al terminar la sesión)</td>
+            <td align="left">Aprendí sobre el patrón de arquitectura MVC (Modelo, Vista & Controlador)</td>
             <td align="center"><a href="UA1/S02/" target="_blank" rel="noopener">Ver</a></td>
             <td align="center"><a href="UA1/S02/capturas/S02-pruebaEntorno.png" target="_blank" rel="noopener">Ver</a></td>
         </tr>

@@ -81,8 +81,8 @@ Mod5_PrograWeb_EntornoCliente-Nombre/
             <td align="center">S02</td>
             <td>Entorno de trabajo, MVC y JavaScript</td>
             <td align="left">Aprendí sobre el patrón de arquitectura MVC (Modelo, Vista & Controlador)</td>
-            <td align="center"><a href="UA1/S02/" target="_blank" rel="noopener">Ver</a></td>
-            <td align="center"><a href="UA1/S02/capturas/S02-pruebaEntorno.png" target="_blank" rel="noopener">Ver</a></td>
+            <td align="center"><a href="UA1/S02/pruebas/js/pruebas.js" target="_blank" rel="noopener">Ver</a></td>
+            <td align="center"><a href="UA1/S02/capturas/S02-consola_pruebas.js.png" target="_blank" rel="noopener">Ver</a></td>
         </tr>
         <tr>
             <td align="center">S03</td>
@@ -420,14 +420,14 @@ La diferencia más importante que encontré entre C y JavaScript: es el uso, don
 
 Archivo: [pruebas/js/pruebas.js](UA1/S02/pruebas/js/pruebas.js)
 
-| Línea | Qué mostró la consola | Tipo | Corrección |
-| ----- | --------------------- | ---- | ---------- |
-| 2     |                       |      |            |
-| 3     |                       |      |            |
-| 4     |                       |      |            |
-| 5     |                       |      |            |
-| 6     |                       |      |            |
-| 7     |                       |      |            |
+| Línea | Qué mostró la consola                               | Tipo      | Corrección                                                        |
+| ----- | --------------------------------------------------- | --------- | ----------------------------------------------------------------- |
+| 2     | N/A                                                 | correcta  | N/A                                                               |
+| 3     | Uncaught SyntaxError: unexpected token: ')'         | sintaxis  | Se quita el parentesis de mas                                     |
+| 4     | N/A                                                 | semántica | se cambia el + entre total y 1500 por una ,                       |
+| 5     | N/A                                                 | correcta  | N/A                                                               |
+| 6     | N/A                                                 | semántica | el 4 + 3 se pone entre parentesis                                 |
+| 7     | Uncaught SyntaxError: missing ) after argument list | sintaxis  | Se le añade un backslash a las comillas que rodean la palabra INA |
 
 **Autoevaluación**
 

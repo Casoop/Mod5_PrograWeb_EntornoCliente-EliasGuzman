@@ -19,4 +19,5 @@ console.log(
 );
 console.log("Total: " + colones.format(total));
 console.log(cuotas + " cuotas de " + colones.format(total / cuotas));
-console.log("Total: " + Number.isInteger(colones / cuotas));
+console.log("¿Cuota exacta? " + Number.isInteger(colones / cuotas));
+console.log("Con 3 cuotas: " + Math.ceil(total / 3) + " cada una");

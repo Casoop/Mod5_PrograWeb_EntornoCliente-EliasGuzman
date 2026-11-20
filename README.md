@@ -101,7 +101,7 @@ Mod5_PrograWeb_EntornoCliente-Nombre/
         <tr>
             <td align="center">S05</td>
             <td>Números, textos, fechas y conversión de datos</td>
-            <td align="left">(Completar al terminar la sesión)</td>
+            <td align="left">Aprendí a redondear números, manejar fechas y monedas segun el país</td>
             <td align="center"><a href="UA1/S05/" target="_blank" rel="noopener">Ver</a></td>
             <td align="center"><a href="UA1/S05/capturas/" target="_blank" rel="noopener">Ver</a></td>
         </tr>
@@ -515,6 +515,36 @@ CÓMO USAR ESTE BLOQUE (Clase 04)
 | Reconozco cadenas, números, booleanos y null.             | x   |        |
 | Calculo con operadores en lugar de escribir el resultado. | x   |        |
 | Sé que prompt devuelve texto y lo convierto con Number.   | x   |        |
+
+</details>
+
+<details>
+<summary>▼<b>Clase 05 · 16/11/2026 · Números, textos, fechas y conversión</b></summary>
+
+**Predicciones**
+
+| #   | Expresión                         | Mi predicción | Lo que mostró la consola |
+| --- | --------------------------------- | ------------- | ------------------------ |
+| 1   | `Math.round(2.5)`                 |               |                          |
+| 2   | `Math.floor(9.99)`                |               |                          |
+| 3   | `"Luz".length`                    |               |                          |
+| 4   | `"casa".toUpperCase()`            |               |                          |
+| 5   | `parseInt("12.9 horas")`          |               |                          |
+| 6   | `Number("doce")`                  |               |                          |
+| 7   | `(3.14159).toFixed(2)`            |               |                          |
+| 8   | `typeof (10).toString()`          |               |                          |
+| 9   | `new Date(2026, 0, 1).getMonth()` |               |                          |
+| 10  | <code>`2 + 3 = ${2 + 3}`</code>   |               |                          |
+
+**Autoevaluación**
+
+| Indicador                                               | Sí  | Aún no |
+| ------------------------------------------------------- | --- | ------ |
+| Uso métodos de Math (round, floor, ceil).               |     |        |
+| Limpio y transformo textos (trim, toUpperCase, length). |     |        |
+| Creo fechas recordando que los meses empiezan en 0.     |     |        |
+| Muestro montos en colones con Intl.                     |     |        |
+| Elijo entre Number, parseInt y parseFloat.              |     |        |
 
 </details>
 

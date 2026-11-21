@@ -548,6 +548,39 @@ CÓMO USAR ESTE BLOQUE (Clase 04)
 
 </details>
 
+<details>
+<summary>▼<b>Clase 06 · 18/11/2026 · Decisiones y depuración</b></summary>
+
+**Ejercicio 1 · Pruebas de cupos.js**
+
+| Prueba               | Mensajes que mostró la consola |
+| -------------------- | ------------------------------ |
+| cupos = 6            |                                |
+| cupos = 2            |                                |
+| cupos = 0            |                                |
+| nivel = "Intermedio" |                                |
+
+**Ejercicio 3 · Cacería con DevTools**
+
+| Pregunta                                     | Respuesta |
+| -------------------------------------------- | --------- |
+| ¿En qué línea puso el punto de interrupción? |           |
+| ¿Qué valor tenía descuento al detenerse?     |           |
+| ¿Cuál era la causa del error?                |           |
+| ¿Cómo lo corrigió?                           |           |
+
+**Autoevaluación**
+
+| Indicador                                                             | Sí  | Aún no |
+| --------------------------------------------------------------------- | --- | ------ |
+| Escribo if / else if / else con las condiciones en el orden correcto. |     |        |
+| Uso el ternario para elegir entre dos valores.                        |     |        |
+| Escribo switch con break y default.                                   |     |        |
+| Pongo un punto de interrupción y avanzo con F10.                      |     |        |
+| Uso try / catch para que el programa no se detenga.                   |     |        |
+
+</details>
+
 > 📌 **AQUÍ SE PEGAN LOS BLOQUES NUEVOS.** Pegue el bloque de cada clase (desde `<details>` hasta `</details>`) justo **arriba** de este aviso. El aviso queda siempre al final de la sección.
 
 ---
@@ -608,7 +641,7 @@ CÓMO USAR ESTE BLOQUE (Clase 04)
 
 <div align="center">
 
-<strong>Nombre Apellido1 Apellido2</strong>
+<strong>Elías Guzmán Castro</strong>
 
 <p>Portafolio elaborado durante el módulo CSTI12004 · Instituto Nacional de Aprendizaje · 2026-2027</p>
 

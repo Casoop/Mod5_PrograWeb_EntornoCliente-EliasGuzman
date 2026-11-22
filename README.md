@@ -108,9 +108,9 @@ Mod5_PrograWeb_EntornoCliente-Nombre/
         <tr>
             <td align="center">S06</td>
             <td>Decisiones y depuración en el navegador</td>
-            <td align="left">(Completar al terminar la sesión)</td>
-            <td align="center"><a href="UA1/S06/" target="_blank" rel="noopener">Ver</a></td>
-            <td align="center"><a href="UA1/S06/capturas/" target="_blank" rel="noopener">Ver</a></td>
+            <td align="left">Aprendí a como ejecutar lineas de codigo especificas dependiendo de las condiciones, a su vez el como depurar codigo con dev tools</td>
+            <td align="center"><a href="UA1/S06/horario/js/horario.js" target="_blank" rel="noopener">Ver</a></td>
+            <td align="center"><a href="UA1/S06/capturas/S06_autonoma_horario.png" target="_blank" rel="noopener">Ver</a></td>
         </tr>
         <tr>
             <td align="center">S07</td>
@@ -562,12 +562,12 @@ CÓMO USAR ESTE BLOQUE (Clase 04)
 
 **Ejercicio 3 · Cacería con DevTools**
 
-| Pregunta                                     | Respuesta |
-| -------------------------------------------- | --------- |
-| ¿En qué línea puso el punto de interrupción? |           |
-| ¿Qué valor tenía descuento al detenerse?     |           |
-| ¿Cuál era la causa del error?                |           |
-| ¿Cómo lo corrigió?                           |           |
+| Pregunta                                     | Respuesta                                                                                                                                        |
+| -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ¿En qué línea puso el punto de interrupción? | 4                                                                                                                                                |
+| ¿Qué valor tenía descuento al detenerse?     | 5                                                                                                                                                |
+| ¿Cuál era la causa del error?                | Al cumplirse que sea mayor o igual a 50000, se ignora el resto de opciones, por lo que nisiquiera compra con >= 100000                           |
+| ¿Cómo lo corrigió?                           | le puse el operador logico &&, por lo que ademas de tener que cumplirse la condicion de ser mayor o igual a 50000, tiene que ser menor de 100000 |
 
 **Autoevaluación**
 
@@ -576,8 +576,8 @@ CÓMO USAR ESTE BLOQUE (Clase 04)
 | Escribo if / else if / else con las condiciones en el orden correcto. | x   |        |
 | Uso el ternario para elegir entre dos valores.                        | x   |        |
 | Escribo switch con break y default.                                   | x   |        |
-| Pongo un punto de interrupción y avanzo con F10.                      |     |        |
-| Uso try / catch para que el programa no se detenga.                   |     |        |
+| Pongo un punto de interrupción y avanzo con F10.                      | x   |        |
+| Uso try / catch para que el programa no se detenga.                   | x   |        |
 
 </details>
 

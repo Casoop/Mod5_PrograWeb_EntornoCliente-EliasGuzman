@@ -553,12 +553,12 @@ CÓMO USAR ESTE BLOQUE (Clase 04)
 
 **Ejercicio 1 · Pruebas de cupos.js**
 
-| Prueba               | Mensajes que mostró la consola |
-| -------------------- | ------------------------------ |
-| cupos = 6            |                                |
-| cupos = 2            |                                |
-| cupos = 0            |                                |
-| nivel = "Intermedio" |                                |
+| Prueba               | Mensajes que mostró la consola        |
+| -------------------- | ------------------------------------- |
+| cupos = 6            | Hay cupos disponibles, Quedan 6 cupos |
+| cupos = 2            | ¡Últimos cupos!, Quedan 2 cupos       |
+| cupos = 0            | Taller lleno, Quedan 0 cupos          |
+| nivel = "Intermedio" | Requiere el nivel inicial             |
 
 **Ejercicio 3 · Cacería con DevTools**
 
@@ -573,9 +573,9 @@ CÓMO USAR ESTE BLOQUE (Clase 04)
 
 | Indicador                                                             | Sí  | Aún no |
 | --------------------------------------------------------------------- | --- | ------ |
-| Escribo if / else if / else con las condiciones en el orden correcto. |     |        |
-| Uso el ternario para elegir entre dos valores.                        |     |        |
-| Escribo switch con break y default.                                   |     |        |
+| Escribo if / else if / else con las condiciones en el orden correcto. | x   |        |
+| Uso el ternario para elegir entre dos valores.                        | x   |        |
+| Escribo switch con break y default.                                   | x   |        |
 | Pongo un punto de interrupción y avanzo con F10.                      |     |        |
 | Uso try / catch para que el programa no se detenga.                   |     |        |
 

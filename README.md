@@ -115,7 +115,7 @@ Mod5_PrograWeb_EntornoCliente-Nombre/
         <tr>
             <td align="center">S07</td>
             <td>Repeticiones, vectores y matrices</td>
-            <td align="left">(Completar al terminar la sesión)</td>
+            <td align="left">Aprendí a realizar ciclos con while, do while y for, ademas de matrices</td>
             <td align="center"><a href="UA1/S07/" target="_blank" rel="noopener">Ver</a></td>
             <td align="center"><a href="UA1/S07/capturas/" target="_blank" rel="noopener">Ver</a></td>
         </tr>
@@ -578,6 +578,33 @@ CÓMO USAR ESTE BLOQUE (Clase 04)
 | Escribo switch con break y default.                                   | x   |        |
 | Pongo un punto de interrupción y avanzo con F10.                      | x   |        |
 | Uso try / catch para que el programa no se detenga.                   | x   |        |
+
+</details>
+
+<details>
+<summary>▼<b>Clase 07 · 23/11/2026 · Repeticiones, vectores y matrices</b></summary>
+
+**¿Cuántas vueltas?**
+
+| #   | Ciclo                                   | Mi predicción | Comprobado |
+| --- | --------------------------------------- | ------------- | ---------- |
+| 1   | `for (let i = 0; i < 5; i++)`           |               |            |
+| 2   | `for (let i = 1; i <= 5; i++)`          |               |            |
+| 3   | `for (let i = 0; i <= 5; i++)`          |               |            |
+| 4   | `let n = 10; while (n > 0) { n -= 3; }` |               |            |
+| 5   | `let n = 0; do { n++; } while (n < 0);` |               |            |
+| 6   | `for (let i = 10; i > 0; i -= 2)`       |               |            |
+
+**Autoevaluación**
+
+| Indicador                                           | Sí  | Aún no |
+| --------------------------------------------------- | --- | ------ |
+| Elijo entre for, while y do while.                  |     |        |
+| Uso break y continue dentro de un ciclo.            |     |        |
+| Creo un vector y uso length, push, pop y join.      |     |        |
+| Recorro un vector con for y con for...of.           |     |        |
+| Leo una matriz con [fila][columna].                 |     |        |
+| Leo los datos de un vector de objetos con el punto. |     |        |
 
 </details>
 

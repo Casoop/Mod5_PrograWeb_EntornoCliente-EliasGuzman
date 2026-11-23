@@ -3,7 +3,7 @@ try {
   // intenta ejecutar
   console.log("Inicio");
   const nombre = null; // como si se cancelara
-  console.log(nombre.toUpperCase()); // falla: null no tiene métodos
+  console.log(nombre.toUpperCase()); // falla porque null no tiene métodos
   console.log("Esta línea no se muestra");
 } catch (error) {
   // si algo falló, viene aquí

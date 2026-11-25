@@ -13,7 +13,7 @@ class Reservas {
   constructor() {
     this.lista = []; //todas las reservas. Propiedad vector empieza vacia y guarda objetos de reserva
   }
-  agregar(Reserva) {
+  agregar(reserva) {
     //Metodo con parametro. En una clase, se escriben sin la palabra funtion
     if (reserva.precio <= 0) {
       //regla de negocio. reserva.precio es Propiedad de otro objeto. reserva es el objeto Reserva que llego como argumento

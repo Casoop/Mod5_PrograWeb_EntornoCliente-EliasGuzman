@@ -5,7 +5,7 @@ class VistaReservas {
     lista.forEach((r, i) => {
       //i es la posicion (r, i) dos parametros del callback
       //i:for Each entraga el elemento (r) y su posicion (i) que empieza en cero
-      console.log(`${i + 1}. ${r.cliente}. ${r.servicio}`); //r.cliente . r.servicio son propiedades de cada reserva. lala vista solo lee datos, no los cambia.
+      console.log(`${i + 1}. ${r.cliente}. ${r.servicio}`); //r.cliente . r.servicio son propiedades de cada reserva. la vista solo lee datos, no los cambia.
     });
   }
   mostrarIngresos(monto) {

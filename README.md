@@ -115,7 +115,7 @@ Mod5_PrograWeb_EntornoCliente-Nombre/
         <tr>
             <td align="center">S07</td>
             <td>Repeticiones, vectores y matrices</td>
-            <td align="left">Aprendí a realizar ciclos con while, do while y for, ademas de matrices</td>
+            <td align="left">Aprendí a realizar ciclos con while, do while y for, ademas de matrices, objetos, funciones, for, for..of, forEach, map y filter. Luego objetos y calases y una miniaplicación MVC</td>
             <td align="center"><a href="UA1/S07/" target="_blank" rel="noopener">Ver</a></td>
             <td align="center"><a href="UA1/S07/capturas/" target="_blank" rel="noopener">Ver</a></td>
         </tr>
@@ -129,7 +129,7 @@ Mod5_PrograWeb_EntornoCliente-Nombre/
         <tr>
             <td align="center">S09</td>
             <td>Objetos y clases + integración MVC · Introducción al DOM</td>
-            <td align="left">(Completar al terminar la sesión)</td>
+            <td align="left">Trabajamos: vectores, matrices</td>
             <td align="center"><a href="UA1/S09/" target="_blank" rel="noopener">Ver</a></td>
             <td align="center"><a href="UA1/S09/capturas/" target="_blank" rel="noopener">Ver</a></td>
         </tr>
@@ -634,6 +634,45 @@ CÓMO USAR ESTE BLOQUE (Clase 04)
 | Distingo una variable global de una local.     |     |        |
 | Uso forEach, map y filter con un callback.     |     |        |
 | Reconozco un closure y predigo su salida.      |     |        |
+
+</details>
+
+<details>
+<summary>▼<b>Clase 09 · 25/11/2026 · Repaso guiado, objetos y clases</b></summary>
+
+**Problema → ventaja** (complete con sus palabras)
+
+| Herramienta       | ¿Qué problema resuelve? | ¿Qué ventaja trae? |
+| ----------------- | ----------------------- | ------------------ |
+| Vector            |                         |                    |
+| Vector de objetos |                         |                    |
+| Función           |                         |                    |
+| forEach           |                         |                    |
+| map               |                         |                    |
+| filter            |                         |                    |
+| Clase             |                         |                    |
+
+**¿Qué muestra?** (prediga y luego compruebe en la consola)
+
+| #   | Código                                                                                       | Mi predicción | Comprobado |
+| --- | -------------------------------------------------------------------------------------------- | ------------- | ---------- |
+| 1   | `[3, 8, 1].map((n) => n * 2)`                                                                |               |            |
+| 2   | `[3, 8, 1].filter((n) => n > 2)`                                                             |               |            |
+| 3   | `const r = [3, 8, 1].forEach((n) => n * 2); r`                                               |               |            |
+| 4   | `[3, 8, 1].filter((n) => n > 5).map((n) => n + 1)`                                           |               |            |
+| 5   | `class A { constructor(n) { this.n = n; } doble() { return this.n * 2; } } new A(4).doble()` |               |            |
+| 6   | `const o = { n: 1 }; o.m`                                                                    |               |            |
+
+**Autoevaluación**
+
+| Indicador                                                                 | Sí  | Aún no |
+| ------------------------------------------------------------------------- | --- | ------ |
+| Explico por qué usar un vector de objetos en lugar de vectores paralelos. |     |        |
+| Elijo entre for, for...of y forEach y explico por qué.                    |     |        |
+| Reescribo un for + push con map y un for + if + push con filter.          |     |        |
+| Creo un objeto con propiedades y un método.                               |     |        |
+| Declaro una clase con constructor y la uso con new.                       |     |        |
+| Explico qué hace el modelo, la vista y el controlador.                    |     |        |
 
 </details>
 

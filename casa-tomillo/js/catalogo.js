@@ -12,6 +12,7 @@ const talleres = [
 ];
 
 //definición de constantes
+const tope = 80000; //tope para el limite de + de 80000
 const opciones = { Style: "currency", currency: "CRC" };
 const colones = new Intl.NumberFormat("es-CR", opciones); //se crea una vez se usa muchas
 
@@ -25,7 +26,7 @@ for (const t of talleres) {
   //recorre los objetos
   suma += t.precio; //suma el precio en cada iteración, para dar un total
 
-  if (t.precio > 80000) {
+  if (t.precio > tope) {
     //se encarga de sumar +1 a caros si el precio se pasa de 80000
     caros++;
   }
@@ -36,7 +37,7 @@ for (const t of talleres) {
   }
 
   //SALIDA A
-  console.log(`${t.nombre}: ${t.precio}`); //imprime tanto el nombre como el precio de los talleres
+  console.log(`${t.nombre}: ¢${colones.format(t.precio)}`); //imprime tanto el nombre como el precio de los talleres
 }
 
 //calcular promedio
@@ -44,4 +45,6 @@ promedio = Math.round(suma / talleres.length);
 
 //SALIDA B
 console.log(`Talleres: ${talleres.length}`);
-console.log(`Promedio: ${promedio}`);
+console.log(`Promedio: ¢${colones.format(promedio)}`);
+console.log(`Más de ¢${colones.format(tope)}: ${colones.format(caros)}`);
+console.log(`El más caro: ${masCaro.nombre}`);

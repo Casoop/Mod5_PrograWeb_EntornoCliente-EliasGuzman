@@ -116,8 +116,8 @@ Mod5_PrograWeb_EntornoCliente-Nombre/
             <td align="center">S07</td>
             <td>Repeticiones, vectores y matrices</td>
             <td align="left">Aprendí a realizar ciclos con while, do while y for, ademas de matrices, objetos, funciones, for, for..of, forEach, map y filter. Luego objetos y calases y una miniaplicación MVC</td>
-            <td align="center"><a href="UA1/S07/" target="_blank" rel="noopener">Ver</a></td>
-            <td align="center"><a href="UA1/S07/capturas/" target="_blank" rel="noopener">Ver</a></td>
+            <td align="center"><a href="UA1/S07/grupos/js/grupos.js" target="_blank" rel="noopener">Ver</a></td>
+            <td align="center"><a href="UA1/S07/capturas/S07_autonoma_grupos.png" target="_blank" rel="noopener">Ver</a></td>
         </tr>
         <tr>
             <td align="center">S08</td>
@@ -601,8 +601,8 @@ CÓMO USAR ESTE BLOQUE (Clase 04)
 | --------------------------------------------------- | --- | ------ |
 | Elijo entre for, while y do while.                  | x   |        |
 | Uso break y continue dentro de un ciclo.            | x   |        |
-| Creo un vector y uso length, push, pop y join.      |     | x      |
-| Recorro un vector con for y con for...of.           |     | x      |
+| Creo un vector y uso length, push, pop y join.      | x   |        |
+| Recorro un vector con for y con for...of.           | x   |        |
 | Leo una matriz con [fila][columna].                 | x   |        |
 | Leo los datos de un vector de objetos con el punto. |     | x      |
 

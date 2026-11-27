@@ -613,27 +613,27 @@ CÓMO USAR ESTE BLOQUE (Clase 04)
 
 **¿Qué muestra?** (prediga y luego compruebe en la consola)
 
-| #   | Código                                                 | Mi predicción | Comprobado |
-| --- | ------------------------------------------------------ | ------------- | ---------- |
-| 1   | `let a = 1; function f() { let a = 2; return a; } f()` |               |            |
-| 2   | `(después de lo anterior) a`                           |               |            |
-| 3   | `function g() { let b = 5; } g(); b`                   |               |            |
-| 4   | `const doble = (n) => n * 2; doble(4)`                 |               |            |
-| 5   | `[1, 2, 3].map((n) => n * 10).join(", ")`              |               |            |
-| 6   | `[5, 8, 2].filter((n) => n > 4).length`                |               |            |
-| 7   | `const s = (x, y) => x + y; s(2)`                      |               |            |
+| #   | Código                                                 | Mi predicción | Comprobado                       |
+| --- | ------------------------------------------------------ | ------------- | -------------------------------- |
+| 1   | `let a = 1; function f() { let a = 2; return a; } f()` | 2             | 2                                |
+| 2   | `(después de lo anterior) a`                           | 1             | 1                                |
+| 3   | `function g() { let b = 5; } g(); b`                   | 5             | ReferenceError: b is not defined |
+| 4   | `const doble = (n) => n * 2; doble(4)`                 | 8             | 8                                |
+| 5   | `[1, 2, 3].map((n) => n * 10).join(", ")`              | 10, 20 , 30   | 10, 20 , 30                      |
+| 6   | `[5, 8, 2].filter((n) => n > 4).length`                | 5, 8          | 2                                |
+| 7   | `const s = (x, y) => x + y; s(2)`                      | Error         | NaN                              |
 
 **Autoevaluación**
 
 | Indicador                                      | Sí  | Aún no |
 | ---------------------------------------------- | --- | ------ |
-| Declaro una función y la llamo con argumentos. |     |        |
-| Uso return y entiendo qué pasa si falta.       |     |        |
-| Escribo una función flecha.                    |     |        |
-| Valido los parámetros antes de calcular.       |     |        |
-| Distingo una variable global de una local.     |     |        |
-| Uso forEach, map y filter con un callback.     |     |        |
-| Reconozco un closure y predigo su salida.      |     |        |
+| Declaro una función y la llamo con argumentos. | x   |        |
+| Uso return y entiendo qué pasa si falta.       | x   |        |
+| Escribo una función flecha.                    | x   |        |
+| Valido los parámetros antes de calcular.       | x   |        |
+| Distingo una variable global de una local.     | x   |        |
+| Uso forEach, map y filter con un callback.     | x   |        |
+| Reconozco un closure y predigo su salida.      |     | x      |
 
 </details>
 

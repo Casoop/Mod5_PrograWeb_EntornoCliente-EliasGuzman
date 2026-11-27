@@ -122,9 +122,9 @@ Mod5_PrograWeb_EntornoCliente-Nombre/
         <tr>
             <td align="center">S08</td>
             <td>Funciones</td>
-            <td align="left">(Completar al terminar la sesión)</td>
-            <td align="center"><a href="UA1/S08/" target="_blank" rel="noopener">Ver</a></td>
-            <td align="center"><a href="UA1/S08/capturas/" target="_blank" rel="noopener">Ver</a></td>
+            <td align="left">Aprendí sobre las 3 formas de realizar funciones, ademas de las como funcionan las varaibles locales y globales en js/td>
+            <td align="center"><a href="UA1/S08/turnos/js/turnos.js" target="_blank" rel="noopener">Ver</a></td>
+            <td align="center"><a href="UA1/S08/capturas/S08_autonoma_turnos.png" target="_blank" rel="noopener">Ver</a></td>
         </tr>
         <tr>
             <td align="center">S09</td>

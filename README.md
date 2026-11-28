@@ -130,8 +130,8 @@ Mod5_PrograWeb_EntornoCliente-Nombre/
             <td align="center">S09</td>
             <td>Objetos y clases + integración MVC · Introducción al DOM</td>
             <td align="left">Trabajamos: vectores, matrices</td>
-            <td align="center"><a href="UA1/S09/" target="_blank" rel="noopener">Ver</a></td>
-            <td align="center"><a href="UA1/S09/capturas/" target="_blank" rel="noopener">Ver</a></td>
+            <td align="center"><a href="UA1/S09/repaso/js/callbacks.js" target="_blank" rel="noopener">Ver</a></td>
+            <td align="center"><a href="UA1/S09/capturas/S09_autonoma_repaso.png" target="_blank" rel="noopener">Ver</a></td>
         </tr>
     </tbody>
 </table>
@@ -642,26 +642,26 @@ CÓMO USAR ESTE BLOQUE (Clase 04)
 
 **Problema → ventaja** (complete con sus palabras)
 
-| Herramienta       | ¿Qué problema resuelve? | ¿Qué ventaja trae? |
-| ----------------- | ----------------------- | ------------------ |
-| Vector            |                         |                    |
-| Vector de objetos |                         |                    |
-| Función           |                         |                    |
-| forEach           |                         |                    |
-| map               |                         |                    |
-| filter            |                         |                    |
-| Clase             |                         |                    |
+| Herramienta       | ¿Qué problema resuelve?                                                                                                                         | ¿Qué ventaja trae?                                                                           |
+| ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| Vector            | la necesidad de una variable por dato                                                                                                           | al guardarlos como vector ademas de ahorrar lineas se pueden usar .length o usarse en for of |
+| Vector de objetos | la necesidad de un vector paralelo donde la informacion podria quedar desincronizada si se elimina unicamente un elmento en uno de los vectores | Permite manipular datos en conjunto si se elimina una se elimina el otro (nombre / precio)   |
+| Función           | comenter errores a la hora de digitar un codigo que se repite                                                                                   | pemite reciclar secciones de codigo y llamarlas cuando se les requiere                       |
+| forEach           | tener que aplicar una funcion a cada elemento de un vector                                                                                      | permite separar un vector en elementos y aplicar una funcion de flecha a cada uno            |
+| map               | tener que crear un vector nuevo, con uno vacio y con push                                                                                       | permite crear un nuevo vector con base a una caracteristica qeu se le añade                  |
+| filter            | tener que usar un if y push para filtrar elementos de un vector                                                                                 | realiza el filtro con base a una funcion de flecha                                           |
+| Clase             |                                                                                                                                                 |                                                                                              |
 
 **¿Qué muestra?** (prediga y luego compruebe en la consola)
 
 | #   | Código                                                                                       | Mi predicción | Comprobado |
 | --- | -------------------------------------------------------------------------------------------- | ------------- | ---------- |
-| 1   | `[3, 8, 1].map((n) => n * 2)`                                                                |               |            |
-| 2   | `[3, 8, 1].filter((n) => n > 2)`                                                             |               |            |
-| 3   | `const r = [3, 8, 1].forEach((n) => n * 2); r`                                               |               |            |
-| 4   | `[3, 8, 1].filter((n) => n > 5).map((n) => n + 1)`                                           |               |            |
-| 5   | `class A { constructor(n) { this.n = n; } doble() { return this.n * 2; } } new A(4).doble()` |               |            |
-| 6   | `const o = { n: 1 }; o.m`                                                                    |               |            |
+| 1   | `[3, 8, 1].map((n) => n * 2)`                                                                | [6, 16, 2]    | [6, 16, 2] |
+| 2   | `[3, 8, 1].filter((n) => n > 2)`                                                             | [3, 8]        | [3, 8]     |
+| 3   | `const r = [3, 8, 1].forEach((n) => n * 2); r`                                               | [6, 16, 2]    | undefined  |
+| 4   | `[3, 8, 1].filter((n) => n > 5).map((n) => n + 1)`                                           | [ 9 ]         | [ 9 ]      |
+| 5   | `class A { constructor(n) { this.n = n; } doble() { return this.n * 2; } } new A(4).doble()` | 8.0           | 8          |
+| 6   | `const o = { n: 1 }; o.m`                                                                    | No se         | undefined  |
 
 **Autoevaluación**
 
